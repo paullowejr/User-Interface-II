@@ -26,6 +26,9 @@ vertical-align: baseline;
     box-sizing:border-box;
     max-width:100%;
 }
+html{
+    font-size:62.5%;
+  }
 
 /*general styles*/
 
@@ -44,7 +47,7 @@ header{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 7rem;
     color: white;
 }
 
@@ -62,11 +65,12 @@ nav ul{
 }
 
 nav a{
+    font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
     color: white;
     display: block;
-    padding: 10px;
+    padding: 5%;
 }
 
 nav a:hover{
@@ -84,18 +88,19 @@ nav li{
 
 /*first section styles*/
 h2{
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
     margin-top: 30px;
 }
 
 #Intro{
     text-align: center;
+    font-size: 2rem;
 }
 
 div.ploweMain{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 2%;
 }
 
 /*second section styles*/
@@ -106,7 +111,7 @@ div.ploweMain{
 }
 
 .box{
-    padding: 0 20px 20px;
+    padding: 0 1% 1%;
 }
 
 .five{
@@ -118,7 +123,7 @@ div.ploweMain{
 footer{
     background-color: #12343b;
     width: 100%;
-    padding: 30px;
+    padding: 2%;
 
 }
 
