@@ -1,1 +1,153 @@
 /* Add CSS styling here */
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+}
+
+/*general styles*/
+
+body{
+    line-height: 1.5;
+    font-family: 'Righteous', cursive;
+    /*padding-left: 100px;
+    padding-right: 100px;*/
+}
+
+/*header styles*/
+header{
+    background-color: #12343b;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+}
+
+/*nav styles*/
+
+nav{
+    background: #c89666;
+    margin-left: 20%;
+    margin-right: 20%;
+}   
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #e1b382;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex: 1 1 0;
+}
+
+
+/*first section styles*/
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#Intro{
+    text-align: center;
+}
+
+div.ploweMain{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*second section styles*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    padding: 0 20px 20px;
+}
+
+.five{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/*footer styles*/
+
+footer{
+    background-color: #12343b;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.containertwo{
+    background: #c89666;
+    margin-left: 45%;
+    margin-right: 45%;
+    height: 50px;
+
+}
+.containertwo{
+    display: flex;
+    justify-content: center;
+}
+
+.containertwo a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.containerthree{
+    text-align: end;
+}
+
+.containerthree a{
+    color: white;
+}
+
+
