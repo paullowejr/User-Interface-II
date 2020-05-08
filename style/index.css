@@ -56,7 +56,7 @@ h1{
 nav{
     background: #c89666;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 20%;  
 }   
 
 nav ul{
@@ -129,9 +129,9 @@ footer{
 
 .containertwo{
     background: #c89666;
-    margin-left: 45%;
-    margin-right: 45%;
-    height: 50px;
+    margin: 0 45%;
+    height: 5%;
+    font-size: 2rem;
 
 }
 .containertwo{
@@ -144,7 +144,7 @@ footer{
     text-align: center;
     color: white;
     display: block;
-    padding: 10px;
+    padding: 5%;
 }
 
 .containerthree{
@@ -153,6 +153,28 @@ footer{
 
 .containerthree a{
     color: white;
+}
+/* 800px View */
+
+@media(max-width: 800px){
+
+.containertwo {
+    margin: 0 40%;
+}
+
+@media(max-width: 500px){
+    nav{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .five{
+        padding: 0 0}
+    }
+
+}
+
+
 }
 
 
